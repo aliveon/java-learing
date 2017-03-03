@@ -19,16 +19,65 @@
 
   <dependencies>
 
+    <dependency>
+      <groupId>com.huanyu</groupId>
+      <artifactId>huanyu-common</artifactId>
+    </dependency>
+
+    <!--spring-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-beans</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+
     <!--apache-->
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
     </dependency>
 
+    <!-- xml -->
+    <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+    </dependency>
+
     <!-- guava -->
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
+    </dependency>
+
+    <!--google-zxing-->
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>javase</artifactId>
+    </dependency>
+
+    <!--alipay-sdk-->
+    <dependency>
+      <groupId>com.alipay.api</groupId>
+      <artifactId>alipay-sdk</artifactId>
+    </dependency>
+
+    <!--aliyun-oss-->
+    <dependency>
+      <groupId>com.aliyun.oss</groupId>
+      <artifactId>aliyun-sdk-oss</artifactId>
+    </dependency>
+
+    <!-- JSON -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
     </dependency>
 
     <!--log-->
@@ -45,6 +94,12 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.huanyu</groupId>
+      <artifactId>huanyu-common</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <scope>test</scope>
     </dependency>
 
   </dependencies>

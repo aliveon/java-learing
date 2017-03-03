@@ -44,6 +44,18 @@
     <!-- guava -->
     <guava.version>19.0</guava.version>
 
+    <!--xml-->
+    <xstream.version>1.4.9</xstream.version>
+
+    <!--goolge-zxing-->
+    <google-zxing.version>3.3.0</google-zxing.version>
+
+    <!--alipay-sdk-->
+    <alipay-sdk.version>1.6</alipay-sdk.version>
+
+    <!--aliyun-->
+    <aliyun.oss.version>2.2.1</aliyun.oss.version>
+
     <!--fast-json-->
     <fastjson.version>1.2.6</fastjson.version>
 
@@ -253,6 +265,39 @@
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
         <version>${guava.version}</version>
+      </dependency>
+
+      <!-- xml -->
+      <dependency>
+        <groupId>com.thoughtworks.xstream</groupId>
+        <artifactId>xstream</artifactId>
+        <version>${xstream.version}</version>
+      </dependency>
+
+      <!--goolge-zxing-->
+      <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>core</artifactId>
+        <version>${google-zxing.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>javase</artifactId>
+        <version>${google-zxing.version}</version>
+      </dependency>
+
+      <!--  alipay-sdk  -->
+      <dependency>
+        <groupId>com.alipay.api</groupId>
+        <artifactId>alipay-sdk</artifactId>
+        <version>${alipay-sdk.version}</version>
+      </dependency>
+
+      <!--aliyun-oss-->
+      <dependency>
+        <groupId>com.aliyun.oss</groupId>
+        <artifactId>aliyun-sdk-oss</artifactId>
+        <version>${aliyun.oss.version}</version>
       </dependency>
 
       <!-- JSON -->
