@@ -5,11 +5,13 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/huanyu-server" />
+    <file type="web" url="file://$PROJECT_DIR$/../../java-core-learning-example" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../java-core-learning-example/pom.xml" />
       </list>
     </option>
   </component>

@@ -28,6 +28,13 @@
         <module name="huanyu-doc" />
         <module name="huanyu-server" />
       </profile>
+      <profile default="false" name="Annotation profile for java-core-learning-example" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="java-core-learning-example" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="huanyu-api" target="1.5" />
@@ -36,6 +43,7 @@
       <module name="huanyu-core" target="1.5" />
       <module name="huanyu-doc" target="1.5" />
       <module name="huanyu-server" target="1.5" />
+      <module name="java-core-learning-example" target="1.8" />
       <module name="java-learing" target="1.5" />
     </bytecodeTargetLevel>
   </component>
