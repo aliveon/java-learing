@@ -3,11 +3,10 @@ package com.huanyu.doc.interview.algorithm;
 /**
  * @author yangtao
  */
-public class Heapsort extends Sort {
+public class Heapsort extends SortUtils {
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
 
   }
-  
+
 }

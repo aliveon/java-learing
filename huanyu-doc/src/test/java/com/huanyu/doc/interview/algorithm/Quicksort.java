@@ -3,11 +3,10 @@ package com.huanyu.doc.interview.algorithm;
 /**
  * @author yangtao
  */
-public class Quicksort extends Sort {
+public class Quicksort extends SortUtils {
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
 
   }
-  
+
 }

@@ -5,10 +5,9 @@ package com.huanyu.doc.interview.algorithm;
  *
  * @author yangtao
  */
-public class MergeSort extends Sort {
+public class MergeSort extends SortUtils {
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
 
   }
 

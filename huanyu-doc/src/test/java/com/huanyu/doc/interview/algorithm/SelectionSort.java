@@ -9,10 +9,9 @@ package com.huanyu.doc.interview.algorithm;
  *
  * @author yangtao
  */
-public class SelectionSort extends Sort {
+public class SelectionSort implements SortProxy {
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
     if (array == null || array.length == 0)
       return;
 
@@ -30,7 +29,7 @@ public class SelectionSort extends Sort {
       }
 
       if (i != curIndex) {
-        swap(array, i, curIndex);
+        SortUtils.swap(array, i, curIndex);
       }
     }
   }

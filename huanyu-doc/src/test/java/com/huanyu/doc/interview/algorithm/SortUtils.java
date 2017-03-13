@@ -5,12 +5,10 @@ import com.huanyu.common.utils.RandomUtils;
 /**
  * @author yangtao
  */
-public abstract class Sort {
+public class SortUtils {
 
   protected static final int range = 1000;
   protected static final int COUNT = 500;
-
-  protected abstract void sort(long[] array);
 
   protected static long[] init(int count) {
     long[] array = new long[count];
@@ -43,7 +41,7 @@ public abstract class Sort {
    * @param firstIndex  数据1位置
    * @param secondIndex 数据2位置
    */
-  protected void swap(long[] array, int firstIndex, int secondIndex) {
+  protected static void swap(long[] array, int firstIndex, int secondIndex) {
     if (array == null || array.length == 0)
       return;
 

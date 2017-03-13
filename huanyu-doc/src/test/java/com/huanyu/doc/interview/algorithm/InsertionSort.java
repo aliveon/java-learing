@@ -10,12 +10,11 @@ import org.slf4j.LoggerFactory;
  *
  * @author yangtao
  */
-public class InsertionSort extends Sort {
+public class InsertionSort implements SortProxy {
 
   private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
     if (array == null || array.length == 0)
       return;
 

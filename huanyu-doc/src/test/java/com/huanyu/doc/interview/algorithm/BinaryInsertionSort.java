@@ -8,10 +8,9 @@ package com.huanyu.doc.interview.algorithm;
  *
  * @author yangtao
  */
-public class BinaryInsertionSort extends Sort {
+public class BinaryInsertionSort implements SortProxy {
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
     if (array == null || array.length == 0)
       return;
 

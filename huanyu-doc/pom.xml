@@ -80,6 +80,18 @@
       <artifactId>fastjson</artifactId>
     </dependency>
 
+    <!--cglib-->
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib</artifactId>
+    </dependency>
+
+    <!--asm-->
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-all</artifactId>
+    </dependency>
+
     <!--log-->
     <dependency>
       <groupId>org.slf4j</groupId>

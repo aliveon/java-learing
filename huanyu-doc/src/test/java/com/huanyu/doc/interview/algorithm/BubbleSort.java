@@ -14,12 +14,11 @@ import org.slf4j.LoggerFactory;
  *
  * @author yangtao
  */
-public class BubbleSort extends Sort {
+public class BubbleSort implements SortProxy {
 
   private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
     if (array == null || array.length == 0)
       return;
 
@@ -28,7 +27,7 @@ public class BubbleSort extends Sort {
       for (int j = i + 1; j < size; j++) {
         // 从小到大排序
         if (array[i] > array[j]) {
-          swap(array, i, j);
+          SortUtils.swap(array, i, j);
         }
       }
     }

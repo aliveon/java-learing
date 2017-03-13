@@ -59,6 +59,12 @@
     <!--fast-json-->
     <fastjson.version>1.2.6</fastjson.version>
 
+    <!--cglib-->
+    <cglib.version>3.2.5</cglib.version>
+
+    <!--asm-->
+    <asm.version>5.1</asm.version>
+
     <!--log-->
     <log4j.version>1.2.16</log4j.version>
     <slf4j.version>1.6.4</slf4j.version>
@@ -305,6 +311,20 @@
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
         <version>${fastjson.version}</version>
+      </dependency>
+
+      <!--cglib-->
+      <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib</artifactId>
+        <version>${cglib.version}</version>
+      </dependency>
+
+      <!--asm-->
+      <dependency>
+        <groupId>org.ow2.asm</groupId>
+        <artifactId>asm-all</artifactId>
+        <version>${asm.version}</version>
       </dependency>
 
       <!-- log -->

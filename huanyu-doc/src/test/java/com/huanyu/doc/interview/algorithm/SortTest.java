@@ -25,7 +25,7 @@ public class SortTest {
 
   @Before
   public void setup() {
-    array = Sort.init(COUNT);
+    array = SortUtils.init(COUNT);
   }
 
   @After
@@ -36,56 +36,60 @@ public class SortTest {
   @Test
   public void bubble() {
     logger.info("before sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(false, Sort.assertArray(array, true));
+    Assert.assertEquals(false, SortUtils.assertArray(array, true));
     new BubbleSort().sort(array);
     logger.info("after sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(true, Sort.assertArray(array, true));
+    Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
   @Test
   public void cocktail() {
     logger.info("before sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(false, Sort.assertArray(array, true));
+    Assert.assertEquals(false, SortUtils.assertArray(array, true));
     new CocktailSort().sort(array);
     logger.info("after sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(true, Sort.assertArray(array, true));
+    Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
   @Test
   public void insertion() {
     logger.info("before sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(false, Sort.assertArray(array, true));
+    Assert.assertEquals(false, SortUtils.assertArray(array, true));
     new InsertionSort().sort(array);
     logger.info("after sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(true, Sort.assertArray(array, true));
+    Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
   @Test
   public void binaryInsertion() {
     logger.info("before sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(false, Sort.assertArray(array, true));
+    Assert.assertEquals(false, SortUtils.assertArray(array, true));
     new BinaryInsertionSort().sort(array);
     logger.info("after sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(true, Sort.assertArray(array, true));
+    Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
   @Test
   public void shell() {
     logger.info("before sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(false, Sort.assertArray(array, true));
+    Assert.assertEquals(false, SortUtils.assertArray(array, true));
     new ShellSort().sort(array);
     logger.info("after sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(true, Sort.assertArray(array, true));
+    Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
-
 
   @Test
   public void selection() {
     logger.info("before sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(false, Sort.assertArray(array, true));
-    new SelectionSort().sort(array);
+    Assert.assertEquals(false, SortUtils.assertArray(array, true));
+    //    new SelectionSort().sort(array);
+
+    SortInterceptor interceptor = new SortInterceptor();
+    SortProxy sortProxy = (SortProxy) interceptor.getProxy(SelectionSort.class);
+    sortProxy.sort(array);
+
     logger.info("after sort,array:{}", JSON.toJSONString(array, true));
-    Assert.assertEquals(true, Sort.assertArray(array, true));
+    Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
 

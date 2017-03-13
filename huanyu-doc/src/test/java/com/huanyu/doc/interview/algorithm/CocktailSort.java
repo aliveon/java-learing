@@ -12,12 +12,11 @@ import org.slf4j.LoggerFactory;
  *
  * @author yangtao
  */
-public class CocktailSort extends Sort {
+public class CocktailSort implements SortProxy {
 
   private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-  @Override
-  protected void sort(long[] array) {
+  public void sort(long[] array) {
     if (array == null || array.length == 0)
       return;
 
@@ -29,7 +28,7 @@ public class CocktailSort extends Sort {
       // 前半轮,将最大元素放到后面
       for (int i = left; i < right; i++) {
         if (array[i] > array[i + 1]) {
-          swap(array, i, i + 1);
+          SortUtils.swap(array, i, i + 1);
         }
       }
       right--;
@@ -37,7 +36,7 @@ public class CocktailSort extends Sort {
       // 后半轮,将最小元素放到前面
       for (int i = right; i > left; i--) {
         if (array[i - 1] > array[i]) {
-          swap(array, i - 1, i);
+          SortUtils.swap(array, i - 1, i);
         }
       }
       left++;
