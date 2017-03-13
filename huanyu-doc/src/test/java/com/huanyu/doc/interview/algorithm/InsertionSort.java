@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author yangtao
  */
-public class InsertionSort implements SortProxy {
+public class InsertionSort extends SortProxy {
 
   private final Logger logger = LoggerFactory.getLogger(this.getClass());
 

@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author yangtao
  */
-public class BubbleSort implements SortProxy {
+public class BubbleSort extends SortProxy {
 
   private final Logger logger = LoggerFactory.getLogger(this.getClass());
 

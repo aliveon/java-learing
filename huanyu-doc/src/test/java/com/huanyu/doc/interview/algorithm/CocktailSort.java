@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author yangtao
  */
-public class CocktailSort implements SortProxy {
+public class CocktailSort extends SortProxy {
 
   private final Logger logger = LoggerFactory.getLogger(this.getClass());
 

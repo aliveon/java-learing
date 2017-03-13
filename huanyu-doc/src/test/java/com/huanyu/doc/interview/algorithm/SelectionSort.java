@@ -9,7 +9,7 @@ package com.huanyu.doc.interview.algorithm;
  *
  * @author yangtao
  */
-public class SelectionSort implements SortProxy {
+public class SelectionSort extends SortProxy {
 
   public void sort(long[] array) {
     if (array == null || array.length == 0)

@@ -20,7 +20,7 @@ package com.huanyu.doc.interview.algorithm;
  *
  * @author yangtao
  */
-public class ShellSort implements SortProxy {
+public class ShellSort extends SortProxy {
 
   public void sort(long[] array) {
     if (array == null || array.length == 0)

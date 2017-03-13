@@ -3,8 +3,13 @@ package com.huanyu.doc.interview.algorithm;
 /**
  * @author yangtao
  */
-public interface SortProxy {
+public abstract class SortProxy {
 
-  public void sort(long[] array);
+  /**
+   * 对数组进行排序
+   *
+   * @param array 待排序数组
+   */
+  public abstract void sort(long[] array);
 
 }

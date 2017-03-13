@@ -83,9 +83,7 @@ public class SortTest {
     logger.info("before sort,array:{}", JSON.toJSONString(array, true));
     Assert.assertEquals(false, SortUtils.assertArray(array, true));
     //    new SelectionSort().sort(array);
-
-    SortInterceptor interceptor = new SortInterceptor();
-    SortProxy sortProxy = (SortProxy) interceptor.getProxy(SelectionSort.class);
+    SortProxy sortProxy = SortInterceptor.getProxy(SelectionSort.class);
     sortProxy.sort(array);
 
     logger.info("after sort,array:{}", JSON.toJSONString(array, true));
