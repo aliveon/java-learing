@@ -11,6 +11,12 @@ package com.huanyu.doc.interview.algorithm;
  */
 public class SelectionSort extends SortProxy {
 
+  @Override
+  public String getSubscriptionName() {
+    return "选择排序";
+  }
+
+  @Override
   public void sort(long[] array) {
     if (array == null || array.length == 0)
       return;

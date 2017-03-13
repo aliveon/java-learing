@@ -31,7 +31,8 @@ public class SortInterceptor implements MethodInterceptor {
     throws Throwable {
     long startTime = System.currentTimeMillis();
     Object o1 = proxy.invokeSuper(obj, args);
-    logger.info("共耗时：{} ms", System.currentTimeMillis() - startTime);
+    logger.info("{} 方式排序共耗时：{} ms", obj.getClass().getGenericSuperclass().getTypeName(),
+      System.currentTimeMillis() - startTime);
     return o1;
   }
 

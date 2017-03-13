@@ -16,6 +16,12 @@ public class CocktailSort extends SortProxy {
 
   private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
+  @Override
+  public String getSubscriptionName() {
+    return "鸡尾酒排序";
+  }
+
+  @Override
   public void sort(long[] array) {
     if (array == null || array.length == 0)
       return;
