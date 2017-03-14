@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16954b58-7532-4ada-89b4-0a68ca0bdea0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ExampleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/RunnableExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ThreadExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/Principle.java" afterPath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/Principle.java" />
     </list>
     <ignored path="java-learing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3664036">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,10 +59,76 @@
         <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Principle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/Principle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnableExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/RunnableExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding>
+                <marker date="1489497142039" expanded="true" signature="302:423" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ThreadExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExampleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ExampleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.056369785">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/jdk8(73)-64/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="28" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enhancer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5-sources.jar!/net/sf/cglib/proxy/Enhancer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="234" column="30" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,10 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/org/huanyu/doc/interview/array/pom/comm/DateRangeElement.java" />
-        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/array/GeneratePomTest.java" />
-        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/array/QRCodesUtilsTest.java" />
-        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/ActionResult.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/XmlElement.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/ProductElement.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/ConditionElement.java" />
@@ -115,7 +181,6 @@
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/GeneratePomTest.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/FlowNoGenerator.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/TryCatchFinnally.java" />
-        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/Principle.java" />
         <option value="$PROJECT_DIR$/huanyu-common/src/main/java/com/huanyu/common/utils/RandomUtils.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortInvocationHandler.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/pom.xml" />
@@ -135,6 +200,11 @@
         <option value="$PROJECT_DIR$/huanyu-common/src/main/java/com/huanyu/common/utils/PerfLogger.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortInterceptor.java" />
         <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortTest.java" />
+        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/array/AntiClockwiseSpiral.java" />
+        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/RunnableExample.java" />
+        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ThreadExample.java" />
+        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ExampleTest.java" />
+        <option value="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/Principle.java" />
       </list>
     </option>
   </component>
@@ -233,6 +303,156 @@
               <option name="myItemId" value="java-learing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: cglib:cglib:3.2.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib-3.2.5.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: cglib:cglib:3.2.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib-3.2.5.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: cglib:cglib:3.2.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib-3.2.5.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -289,6 +509,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huanyu-doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-learing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huanyu-doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,6 +709,10 @@
               <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -457,45 +765,19 @@
       <recent name="D:\practiceProj\github\java-learing\huanyu-doc\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest">
-    <configuration default="false" name="SortTest.bubble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ExampleTest">
+    <configuration default="false" name="Principle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.huanyu.doc.interview.algorithm.*" />
+          <option name="PATTERN" value="com.huanyu.doc.interview.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="huanyu-doc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.algorithm.SortTest" />
-      <option name="METHOD_NAME" value="bubble" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.huanyu.doc.interview.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="huanyu-doc" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.algorithm.SortTest" />
+      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.basic.Principle" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -510,19 +792,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SortTest.selection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Principle.tryCatchFinally" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.huanyu.doc.interview.algorithm.*" />
+          <option name="PATTERN" value="com.huanyu.doc.interview.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="huanyu-doc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.algorithm.SortTest" />
-      <option name="METHOD_NAME" value="selection" />
+      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.basic.Principle" />
+      <option name="METHOD_NAME" value="tryCatchFinally" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -536,19 +818,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SortTest.binaryInsertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ExampleTest.runnableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.huanyu.doc.interview.algorithm.*" />
+          <option name="PATTERN" value="com.huanyu.doc.interview.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="huanyu-doc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.algorithm.SortTest" />
-      <option name="METHOD_NAME" value="binaryInsertion" />
+      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.thread" />
+      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.thread.ExampleTest" />
+      <option name="METHOD_NAME" value="runnableTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -562,19 +844,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SortTest.shell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ExampleTest.threadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.huanyu.doc.interview.algorithm.*" />
+          <option name="PATTERN" value="com.huanyu.doc.interview.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="huanyu-doc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.algorithm.SortTest" />
-      <option name="METHOD_NAME" value="shell" />
+      <option name="PACKAGE_NAME" value="com.huanyu.doc.interview.thread" />
+      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.thread.ExampleTest" />
+      <option name="METHOD_NAME" value="threadTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -586,6 +868,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.huanyu.doc.interview.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.huanyu.doc.interview.thread.ExampleTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="huanyu-doc" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1073,19 +1375,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.java-learing [clean install]" />
       <item index="1" class="java.lang.String" itemvalue="Maven.java-core-learning-example [clean install]" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest.bubble" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SortTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SortTest.selection" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SortTest.binaryInsertion" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.SortTest.shell" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Principle" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Principle.tryCatchFinally" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleTest.runnableTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ExampleTest.threadTest" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ExampleTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SortTest.bubble" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest.selection" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SortTest.shell" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SortTest.binaryInsertion" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ExampleTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleTest.threadTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTest.runnableTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Principle.tryCatchFinally" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Principle" />
       </list>
     </recent_temporary>
   </component>
@@ -1115,7 +1417,7 @@
       <workItem from="1489220523981" duration="7727000" />
       <workItem from="1489286787247" duration="19828000" />
       <workItem from="1489414595646" duration="7627000" />
-      <workItem from="1489482460301" duration="3275000" />
+      <workItem from="1489482460301" duration="12307000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1488209861149</created>
@@ -1135,43 +1437,61 @@
       <option name="project" value="LOCAL" />
       <updated>1489490808373</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="clean code">
+      <created>1489490818877</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489490818877</updated>
+    </task>
+    <task id="LOCAL-00005" summary="clean code">
+      <created>1489493890227</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489493890227</updated>
+    </task>
+    <task id="LOCAL-00006" summary="clean code">
+      <created>1489494835955</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1489494835955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortTest - 2017.03.14 at 17h 16m 21s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 20h 44m 31s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest - 2017.03.14 at 17h 21m 29s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 20h 49m 27s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest - 2017.03.14 at 17h 28m 27s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 20h 50m 20s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_bubble - 2017.03.14 at 17h 14m 40s.xml">
-      <configuration name="SortTest.bubble" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 20h 52m 24s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_bubble - 2017.03.14 at 17h 15m 40s.xml">
-      <configuration name="SortTest.bubble" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 20h 53m 09s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_bubble - 2017.03.14 at 17h 17m 28s.xml">
-      <configuration name="SortTest.bubble" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 20h 53m 25s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_bubble - 2017.03.14 at 17h 18m 30s.xml">
-      <configuration name="SortTest.bubble" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 21h 04m 48s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_bubble - 2017.03.14 at 17h 18m 54s.xml">
-      <configuration name="SortTest.bubble" configurationId="JUnit" />
+    <history-entry file="ExampleTest_runnableTest - 2017.03.14 at 21h 06m 40s.xml">
+      <configuration name="ExampleTest.runnableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_bubble - 2017.03.14 at 17h 19m 35s.xml">
-      <configuration name="SortTest.bubble" configurationId="JUnit" />
+    <history-entry file="ExampleTest_threadTest - 2017.03.14 at 20h 57m 54s.xml">
+      <configuration name="ExampleTest.threadTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_bubble - 2017.03.14 at 17h 19m 50s.xml">
-      <configuration name="SortTest.bubble" configurationId="JUnit" />
+    <history-entry file="ExampleTest_threadTest - 2017.03.14 at 21h 15m 19s.xml">
+      <configuration name="ExampleTest.threadTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76063000" />
+    <option name="totallyTimeSpent" value="85095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1185,7 +1505,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66993463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7538126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27938035" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1195,7 +1515,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978212" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6906318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1233,55 +1553,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/ProductElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/ReminderElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/StepElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/XmlElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/coupon/ActivityElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/coupon/UsingExecutionElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/utils/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/demo/pom/comm/RuleRoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1380,13 +1651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.5/commons-lang-2.5-sources.jar!/org/apache/commons/lang/math/RandomUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028184893">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar!/org/apache/commons/lang3/RandomUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3416009">
@@ -1405,24 +1669,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/Principle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22547914">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../java-core-learning-example/src/main/java/org/javacore/lambda/LambdaRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/array/AntiClockwiseSpiral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1459,14 +1709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24802706">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5-sources.jar!/net/sf/cglib/proxy/Enhancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="224" column="16" selection-start-line="224" selection-start-column="16" selection-end-line="224" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1598,20 +1840,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5-sources.jar!/net/sf/cglib/proxy/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3664036">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.33258173">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5-sources.jar!/net/sf/cglib/proxy/Enhancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="234" column="30" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/array/AntiClockwiseSpiral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3945885">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk8(73)-64/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.45659527">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk8(73)-64/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.5/commons-lang-2.5-sources.jar!/org/apache/commons/lang/math/RandomUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33258173">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/basic/Principle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/RunnableExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <marker date="1489497142039" expanded="true" signature="302:423" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk8(73)-64/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33258173">
+          <caret line="189" column="56" selection-start-line="189" selection-start-column="56" selection-end-line="189" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ThreadExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/thread/ExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056369785">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

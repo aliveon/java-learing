@@ -92,7 +92,8 @@ public class Principle {
       i /= 0;
     } catch (Exception e) {
       logger.error("", e);
-      System.exit(1);
+      //      System.exit(1);
+      Runtime.getRuntime().halt(1);
     } finally {
       // finally 语句块在 return 之前执行, 用于资源回收、清理操作。
       ++i;
