@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16954b58-7532-4ada-89b4-0a68ca0bdea0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortInterceptor.java" afterPath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortTest.java" afterPath="$PROJECT_DIR$/huanyu-doc/src/test/java/com/huanyu/doc/interview/algorithm/SortTest.java" />
     </list>
     <ignored path="java-learing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1117,7 +1115,7 @@
       <workItem from="1489220523981" duration="7727000" />
       <workItem from="1489286787247" duration="19828000" />
       <workItem from="1489414595646" duration="7627000" />
-      <workItem from="1489482460301" duration="3208000" />
+      <workItem from="1489482460301" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1488209861149</created>
@@ -1131,7 +1129,13 @@
       <option name="project" value="LOCAL" />
       <updated>1489421607729</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clean code">
+      <created>1489490808373</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489490808373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1167,7 +1171,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75996000" />
+    <option name="totallyTimeSpent" value="76063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1215,7 +1219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <MESSAGE value="add cglib proxy to realizing aop function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cglib proxy to realizing aop function" />
+    <MESSAGE value="clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
