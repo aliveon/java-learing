@@ -83,11 +83,12 @@ public class AntiClockwiseSpiral {
 
   private void printArray(String[][] tangle) {
     StringBuilder builder = new StringBuilder();
-    int total = tangle.length;
     //    for (int horizontal = 0; horizontal < tangle.length; horizontal++) {
-    for (int horizontal = 0; horizontal < total; horizontal++) {//  避免在循环条件中计算表达式；java编码最佳实践
+    //  避免在循环条件中计算表达式；java编码最佳实践
+    for (int horizontal = 0, total = tangle.length; horizontal < total; horizontal++) {
       //      for (int vertical = 0; vertical < tangle.length; vertical++) {
-      for (int vertical = 0; vertical < total; vertical++) {//  避免在循环条件中计算表达式；java编码最佳实践
+      for (int vertical = 0; vertical < total; vertical++) {
+        // 减少 IO 处理,使用StringBuilder提高处理效率
         //        System.out.print(tangle[horizontal][vertical] + "  ");
         builder.append(tangle[horizontal][vertical]);
         builder.append("  ");
