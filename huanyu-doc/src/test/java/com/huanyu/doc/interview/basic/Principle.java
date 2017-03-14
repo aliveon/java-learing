@@ -1,5 +1,6 @@
 package com.huanyu.doc.interview.basic;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,7 +42,9 @@ public class Principle {
      * 把清理代码放在finally语句块里是一个很好的做法，即便可能不会有异常发生也要这样做。
      */
     // try{return}finally
-    logger.info("exceptionHandleReturn, result= {} \n ", exceptionHandleReturn());
+    int result = exceptionHandleReturn();
+    logger.info("exceptionHandleReturn, result= {} \n ", result);
+    Assert.assertEquals(2, result);
 
     /**
      * 注意，当try或者catch的代码在运行的时候，JVM退出了。
@@ -61,7 +64,9 @@ public class Principle {
      *
      */
     // try{exit}finally
-    logger.info("exceptionHandleExit, result= {} \n", exceptionHandleExit());
+    int res = exceptionHandleExit();
+    logger.info("exceptionHandleExit, result= {} \n", res);
+    Assert.assertEquals(1, res);
   }
 
   private int exceptionHandleReturn() {
@@ -84,16 +89,16 @@ public class Principle {
     int i = 1;
     try {
       logger.info("in try, i= {}", i);
-      System.exit(0);
       i /= 0;
     } catch (Exception e) {
       logger.error("", e);
+      System.exit(1);
     } finally {
       // finally 语句块在 return 之前执行, 用于资源回收、清理操作。
       ++i;
       logger.info("in finnally, i= {}", i);
     }
-    return 0;
+    return i;
   }
 
 }
