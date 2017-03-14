@@ -5,6 +5,9 @@ import java.lang.reflect.Method;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.alibaba.fastjson.JSON;
+import com.huanyu.common.utils.PerfLogger;
+
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -29,10 +32,14 @@ public class SortInterceptor implements MethodInterceptor {
 
   public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy)
     throws Throwable {
-    long startTime = System.currentTimeMillis();
+    logger.info("before sort,array:{}", JSON.toJSONString(args[0], true));
+    //    long startTime = System.currentTimeMillis();
+    PerfLogger pf = new PerfLogger(logger).start("sort");
     Object o1 = proxy.invokeSuper(obj, args);
-    logger.info("{} 方式排序共耗时：{} ms", obj.getClass().getGenericSuperclass().getTypeName(),
-      System.currentTimeMillis() - startTime);
+    pf.stop();
+    //    long time = System.currentTimeMillis() - startTime;
+    //    logger.info("{} 方式排序共耗时：{} ms", obj.getClass().getGenericSuperclass().getTypeName(), time);
+    logger.info("after sort,array:{}", JSON.toJSONString(args[0], true));
     return o1;
   }
 

@@ -33,7 +33,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="java-core-learning-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
