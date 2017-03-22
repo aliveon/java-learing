@@ -1,5 +1,12 @@
 package com.huanyu.doc.demo;
 
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -11,14 +18,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
-
-import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.google.common.cache.CacheBuilder;
-import com.google.common.cache.CacheLoader;
-import com.google.common.cache.LoadingCache;
 
 /**
  * @author yangtao
@@ -39,7 +38,7 @@ public class FlowNoGenerator {
         }
       });
 
-  private static StringBuilder builder = new StringBuilder();
+  private static StringBuilder builder = new StringBuilder(TOTAL_LENGTH);
 
   public static synchronized String generate() throws Exception {
     builder.delete(0, builder.length());
@@ -57,7 +56,7 @@ public class FlowNoGenerator {
   private static List<String> codes = new ArrayList<String>();
 
   public static void main(String[] args) throws Exception {
-    for (int i = 0; i < 10000; i++)
+    for (int i = 0; i < 1000000; i++)
       codes.add(FlowNoGenerator.generate());
 
     Iterator<String> it = codes.iterator();
@@ -82,7 +81,7 @@ public class FlowNoGenerator {
     }
     BufferedWriter writer = null;
     try {
-      writer = new BufferedWriter(new FileWriter(filePath, true));
+      writer = new BufferedWriter(new FileWriter(filePath, true), 89120);
       writer.write(content + "\n");
       writer.flush();
     } catch (Exception e) {

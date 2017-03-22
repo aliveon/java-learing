@@ -1,19 +1,18 @@
 package com.huanyu.common.utils;
 
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
-
-import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.google.common.cache.CacheBuilder;
-import com.google.common.cache.CacheLoader;
-import com.google.common.cache.LoadingCache;
 
 /**
  * @author yangtao
@@ -36,7 +35,7 @@ public class FlowNoGenerator {
         }
       });
 
-  private static StringBuilder builder = new StringBuilder();
+  private static StringBuilder builder = new StringBuilder(TOTAL_LENGTH);
 
   public static synchronized String generate() throws Exception {
     builder.delete(0, builder.length());
