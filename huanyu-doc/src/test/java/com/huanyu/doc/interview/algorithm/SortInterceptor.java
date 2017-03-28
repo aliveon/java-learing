@@ -1,16 +1,14 @@
 package com.huanyu.doc.interview.algorithm;
 
-import java.lang.reflect.Method;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.alibaba.fastjson.JSON;
 import com.huanyu.common.utils.PerfLogger;
-
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.lang.reflect.Method;
 
 /**
  * 基于cglib 实现的切面
@@ -19,24 +17,24 @@ import net.sf.cglib.proxy.MethodProxy;
  */
 public class SortInterceptor implements MethodInterceptor {
 
-  private static final Logger logger = LoggerFactory.getLogger(SortInterceptor.class);
+  private static final Logger LOG = LoggerFactory.getLogger(SortInterceptor.class);
 
   public static <T> T getProxy(Class<? extends SortProxy> clazz) {
-    Enhancer e = new Enhancer();
+    Enhancer enhancer = new Enhancer();
     //设置需要创建子类的类
-    e.setSuperclass(clazz);
-    e.setCallback(new SortInterceptor());
+    enhancer.setSuperclass(clazz);
+    enhancer.setCallback(new SortInterceptor());
     //通过字节码技术动态创建子类实例
-    return (T) e.create();
+    return (T) enhancer.create();
   }
 
   public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy)
     throws Throwable {
-    logger.info("before sort,array:{}", JSON.toJSONString(args[0], true));
-    PerfLogger pf = new PerfLogger(logger).start("sort");
+    LOG.info("before sort,array:{}", JSON.toJSONString(args[0], true));
+    PerfLogger pf = new PerfLogger(LOG).start("sort");
     Object o1 = proxy.invokeSuper(obj, args);
     pf.stop();
-    logger.info("after sort,array:{}", JSON.toJSONString(args[0], true));
+    LOG.info("after sort,array:{}", JSON.toJSONString(args[0], true));
     return o1;
   }
 
