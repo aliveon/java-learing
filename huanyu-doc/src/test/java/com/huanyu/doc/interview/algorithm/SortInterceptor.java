@@ -34,7 +34,7 @@ public class SortInterceptor implements MethodInterceptor {
     //    PerfLogger pf = new PerfLogger(LOG).start("sort");
     PerfLogger pf = new PerfLogger(LOG)
       .start((String) method.getDeclaringClass().getDeclaredMethod("getSubscriptionName")//
-        .invoke(obj.getClass().getSuperclass().newInstance()));
+        .invoke(obj.getClass().getSuperclass().newInstance()));// obj "this", the enhanced object
     Object o1 = proxy.invokeSuper(obj, args);
     pf.stop();
     LOG.info("after sort,array:{}", JSON.toJSONString(args[0], true));
