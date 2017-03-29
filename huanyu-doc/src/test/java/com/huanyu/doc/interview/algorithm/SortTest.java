@@ -92,5 +92,13 @@ public class SortTest {
     Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
+  @Test
+  public void quick() {
+    //    array = SortUtils.init(10);  // 开启 log4j 的 debug 模式，查看快速排序的排序过程
+    Assert.assertEquals(false, SortUtils.assertArray(array, true));
+    SortProxy sortProxy = SortInterceptor.getProxy(Quicksort.class);
+    sortProxy.sort(array);
+    Assert.assertEquals(true, SortUtils.assertArray(array, true));
+  }
 
 }
