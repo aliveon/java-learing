@@ -32,9 +32,9 @@ public class SortInterceptor implements MethodInterceptor {
     throws Throwable {
     LOG.info("before sort,array:{}", JSON.toJSONString(args[0], true));
     //    PerfLogger pf = new PerfLogger(LOG).start("sort");
-    String str = (String) method.getDeclaringClass().getDeclaredMethod("getSubscriptionName")
-      .invoke(obj.getClass().getSuperclass().newInstance());
-    PerfLogger pf = new PerfLogger(LOG).start(str);
+    PerfLogger pf = new PerfLogger(LOG)
+      .start((String) method.getDeclaringClass().getDeclaredMethod("getSubscriptionName")//
+        .invoke(obj.getClass().getSuperclass().newInstance()));
     Object o1 = proxy.invokeSuper(obj, args);
     pf.stop();
     LOG.info("after sort,array:{}", JSON.toJSONString(args[0], true));
