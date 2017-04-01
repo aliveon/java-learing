@@ -1,5 +1,7 @@
 package com.huanyu.doc.interview.algorithm;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.LogManager;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -32,73 +34,56 @@ public class SortTest {
   }
 
   //  @Test
-  public void bubble_example() {
+  public void bubble_V1() {
     //    logger.info("before sort,array:{}", JSON.toJSONString(array, true));
     Assert.assertEquals(false, SortUtils.assertArray(array, true));
-    //    new BinaryInsertionSort().sort(array);
-
-    // improve 1: bringing in aop interceptor to instand of calculating the time of the method cost
-    SortProxy sortProxy = SortInterceptor.getProxy(BubbleSort.class);
-    sortProxy.sort(array);
+    new BinaryInsertionSort().sort(array);
     //    logger.info("after sort,array:{}", JSON.toJSONString(array, true));
     Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
-  @Test
-  public void bubble() {
+  //  @Test
+  public void bubble_V2() {
     Assert.assertEquals(false, SortUtils.assertArray(array, true));
+    // improve 1: bringing in aop interceptor to instand of calculating the time of the method cost
     SortProxy sortProxy = SortInterceptor.getProxy(BubbleSort.class);
     sortProxy.sort(array);
     Assert.assertEquals(true, SortUtils.assertArray(array, true));
   }
 
   @Test
-  public void cocktail() {
-    Assert.assertEquals(false, SortUtils.assertArray(array, true));
-    SortProxy sortProxy = SortInterceptor.getProxy(CocktailSort.class);
-    sortProxy.sort(array);
-    Assert.assertEquals(true, SortUtils.assertArray(array, true));
-  }
-
-  @Test
-  public void insertion() {
-    Assert.assertEquals(false, SortUtils.assertArray(array, true));
-    SortProxy sortProxy = SortInterceptor.getProxy(InsertionSort.class);
-    sortProxy.sort(array);
-    Assert.assertEquals(true, SortUtils.assertArray(array, true));
-  }
-
-  @Test
-  public void binaryInsertion() {
-    Assert.assertEquals(false, SortUtils.assertArray(array, true));
-    SortProxy sortProxy = SortInterceptor.getProxy(BinaryInsertionSort.class);
-    sortProxy.sort(array);
-    Assert.assertEquals(true, SortUtils.assertArray(array, true));
-  }
-
-  @Test
-  public void shell() {
-    Assert.assertEquals(false, SortUtils.assertArray(array, true));
-    SortProxy sortProxy = SortInterceptor.getProxy(ShellSort.class);
-    sortProxy.sort(array);
-    Assert.assertEquals(true, SortUtils.assertArray(array, true));
-  }
-
-  @Test
-  public void selection() {
-    Assert.assertEquals(false, SortUtils.assertArray(array, true));
-    SortProxy sortProxy = SortInterceptor.getProxy(SelectionSort.class);
-    sortProxy.sort(array);
-    Assert.assertEquals(true, SortUtils.assertArray(array, true));
+  public void operateLog() {
+    logger.debug("debug:{}", "before modify");
+    logger.info("superclass:{}", logger.getClass().getSuperclass());
+    LogManager.getLogger(this.getClass()).setLevel(Level.DEBUG);
+    logger.debug("debug:{}", "after modify");
   }
 
   @Test
   public void quick() {
-    //    array = SortUtils.init(10);  // 开启 log4j 的 debug 模式，查看快速排序的排序过程
+    array = SortUtils.init(10);  // 查看快速排序的排序过程
     Assert.assertEquals(false, SortUtils.assertArray(array, true));
     SortProxy sortProxy = SortInterceptor.getProxy(Quicksort.class);
+    LogManager.getLogger(Quicksort.class).setLevel(Level.DEBUG); //  开启 log4j 的 debug 模式
     sortProxy.sort(array);
     Assert.assertEquals(true, SortUtils.assertArray(array, true));
+  }
+
+  @Test
+  public void compare() {
+    compare(BubbleSort.class, CocktailSort.class, InsertionSort.class, BinaryInsertionSort.class,
+      ShellSort.class, SelectionSort.class, Quicksort.class);
+  }
+
+  private void compare(Class<? extends SortProxy>... classes) {
+    long[] copyArray;
+    for (Class<? extends SortProxy> clazz : classes) {
+      copyArray = array.clone();
+      Assert.assertEquals(false, SortUtils.assertArray(copyArray, true));
+      SortProxy sortProxy = SortInterceptor.getProxy(clazz);
+      sortProxy.sort(copyArray);
+      Assert.assertEquals(true, SortUtils.assertArray(copyArray, true));
+    }
   }
 
 }

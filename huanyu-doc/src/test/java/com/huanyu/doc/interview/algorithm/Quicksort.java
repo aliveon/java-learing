@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 快速排序
+ * http://www.cnblogs.com/HuoAA/p/4338424.html
  *
  * @author yangtao
  */
