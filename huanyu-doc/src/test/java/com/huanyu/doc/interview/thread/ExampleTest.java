@@ -1,10 +1,8 @@
 package com.huanyu.doc.interview.thread;
 
-import org.junit.Test;
+import com.huanyu.common.utils.RandomUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.huanyu.common.utils.RandomUtils;
 
 /**
  * 在程序开发中只要是多线程肯定永远以实现Runnable接口为主，因为实现Runnable接口相比继承Thread类有如下好处：
@@ -48,7 +46,6 @@ public class ExampleTest {
     three.start();
   }
 
-  @Test
   public void threadTest() {
     ThreadExample one = new ThreadExample("one");
     ThreadExample two = new ThreadExample("two");
