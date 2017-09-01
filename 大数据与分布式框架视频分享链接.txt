@@ -1,0 +1,17 @@
+Redis3.0新特性、主从复制、集群视频教程		链接：http://pan.baidu.com/s/1miQGVf6 密码：twt0
+
+storm入门到精通		链接：http://pan.baidu.com/s/1dFov9KX 密码：5wrp
+
+mycat视频		链接：http://pan.baidu.com/s/1i4Zuu6T 密码：a921
+
+Zookeeper从入门到精通（开发详解，案例实战）		链接：http://pan.baidu.com/s/1c2eUnRE 密码：b2sj
+
+dubbo视频教程		链接：http://pan.baidu.com/s/1c2nHEEk 密码：jbch
+
+大数据Storm项目实战视频课程			链接：http://pan.baidu.com/s/1o7CP5Zs 密码：endf
+
+	欢迎各位前来本人云盘下载本人已有的开发资料（Linux应用、java初级-高级、数据库应用、大数据、分布式学习视频、web前端、PHP、
+node.js、）。由于本人工作时间原因不能及时回复各位，所以请各位需在下载资料之前，提前进本人网址私信留言（www.baidu.com/p/caihui219514）
+或者QQ（1294926291）与我取得联系！
+	更多技术交流与资源分享，欢迎加入我们的QQ群----java开发技术交流：497427097，本群将不定期更新文件和技术知识，进群需更改备注（
+地址+职位+昵称）最后感谢大家的支持，后续我也会把更完整，更有效、有用的视频一一分享给大家，让我们共同进步！
